@@ -24,3 +24,40 @@ Sigue las siguientes instrucciones
 ]
 ```
 -  Obtenido el resultado de ambas promesas, deberas filtrar todos los estados que pernezcan al pais México. El resultado debera ser un arreglo con el nombre de los estados en máyusculas. Muestrarlo en consola.
+
+# Ejercicio
+
+
+### Parte 2
+
+- Crea un archivo que se llame nombres.json. Este archivo debe contener la siguiente información
+```
+{
+  "nombres": [
+    { "nombre": "Juan", "apellido": "Garcia1" },
+    { "nombre": "Pedro", "apellido": "Lopez" },
+    { "nombre": "Andres", "apellido": "Mendez" },
+    { "nombre": "Daniel", "apellido": "Valdez" },
+    { "nombre": "Luis", "apellido": "Gonzalez" }
+  ]
+}
+```
+- Por medio del método fetch, debes consumir el archivo nombres.json.
+- Por ultimo, muestra el resultado en consola.
+
+### Parte 3
+
+Del ejercicio anterior, usa async y await para obtener la respuestas de la promesa
+
+### Parte 4
+
+- Del ejercicio anterior. Ahora crea un archivo index.html. Debes importar tu archivo index.js a tu sitio web
+- Instala bootstrap en tu proyecto.
+- Agrega un select como se muestra acontinuación
+```
+    <section>
+      <select id="campos" class="form-select"></select>
+    </section>
+```
+- Ahora bien, por medio de javascript debes agregar los nombres del archivo nombres.json a tu select 
+
