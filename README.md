@@ -25,9 +25,6 @@ Sigue las siguientes instrucciones
 ```
 -  Obtenido el resultado de ambas promesas, deberas filtrar todos los estados que pernezcan al pais México. El resultado debera ser un arreglo con el nombre de los estados en máyusculas. Muestrarlo en consola.
 
-# Ejercicio
-
-
 ### Parte 2
 
 - Crea un archivo que se llame nombres.json. Este archivo debe contener la siguiente información
